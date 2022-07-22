@@ -1,0 +1,427 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* .editar .row{
+    --bs-gutter-x: 1.rem;
+} */
+
+.contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.navbar_css{
+    position: absolute;
+    width: 100%;
+    height: 12%;
+    top: 0;
+}
+
+.navbar_css_dos{
+    top: 0;
+    position: fixed;
+    z-index: 999999999;
+}
+
+.navbar_css .logo{
+    margin-top: 15px;
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+}
+
+.navbar_css .logo img{
+    width: 8%;
+    height: 8%;
+    margin-left: 10px;
+    z-index: 999999999;
+}
+
+.logo p{
+    margin: 0px 0px 0px 15px;
+    font-size: 19px;
+    line-height: 18px;
+    z-index: 999999999;
+}
+
+.links{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.navbar_css_dos .links a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    margin: 20px 20px 0px 20px;
+    background-color: rgb(43, 43, 43);
+    padding: 2px 20px;
+    border-radius: 25px;
+}
+
+.navbar_css_dos .links a:hover{
+    background-color: #dc5ed9;
+}
+
+.pink{
+    background-color: #dc5ed9!important;
+}
+
+.pink:hover{
+    background-color: rgb(43, 43, 43)!important;
+}
+
+.video{
+    position: relative;
+}
+
+video{
+    width: 100%;
+    height: 675px;
+}
+
+.btn_auditoria{
+    margin-top: 10%;
+}
+
+.btn_auditoria button{
+    border: none;
+    background-color: #dc5ed9;
+    padding: 8px 1%;
+    border-radius: 10px;
+    position: absolute;
+    top: 75%;
+    left: 7%;
+}
+
+.btn_auditoria a{
+    text-decoration: none;
+    color: white;
+    padding: 3px 7.4em;
+}
+
+.btn_auditoria a:hover{
+    color: white;
+}
+
+.btn_auditoria button {
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+  
+.btn_auditoria button:hover {
+    background-color: #ff6cf3;
+    box-shadow: 0px 15px 20px #CB6CE6;
+    transform: translateY(-7px);
+}
+  
+.btn_auditoria button:active {
+    transform: translateY(-1px);
+}
+
+@media ( max-width: 600px ){
+    .btn_auditoria button{
+        top: 61%;
+        left: 3%;
+    }
+    .btn_auditoria a{
+        padding: 0px 25px;   
+    }
+}
+
+@media ( min-width: 601px ) and ( max-width: 800px ){
+    .btn_auditoria button{
+        top: 64%;
+        left: 3%;
+    }
+    .btn_auditoria a{
+        padding: 1px 55px;   
+    }
+}
+
+.contenedor_empezar{
+    margin-top: 90px;
+    text-align: center;
+}
+
+.empezar{
+    font-weight: bolder;
+    font-size: 90px;
+}
+
+.color{
+    color: #dc5ed9;
+}
+
+.container{
+    margin-top: 7%
+}
+
+.servicios{
+    text-align: center;
+}
+
+.servicios img{
+    width: 90%;
+    height: 70%;
+    margin-bottom: 5%;
+}
+
+.col-md-4,.col-xs-12,.servicio img{
+    width: 100%;
+    height: 50%;
+}
+
+.estrategia{
+    text-align: center;
+}
+
+.estrategia img{
+    width: 90%;
+    height: 100%;
+    margin-top: -5%;
+}
+
+.puntos h1{
+    margin-top: 50%;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.puntos img{
+    width: 100%;
+    height: 50%;
+}
+
+.tarjeta{
+    width: 95%;
+    height: 375px;
+    border-radius: 20px;
+    margin: 25px auto;
+    padding: 30% 10px;
+    cursor: pointer;
+    border: 3px solid #c769e7;
+    transition: all .2s;
+    box-shadow: 8px 8px 2px 1px #5a44bb;
+}
+
+.planes{
+    text-align: center;
+    margin-top: 150px;
+}
+
+.planes img{
+    width: 32%;
+}
+
+.planes p{
+    margin: 2% 0% 5% 0%;
+    font-size: 20px;
+}
+
+.tarjeta:hover {
+    box-shadow: -8px 12px 2px -1px #5a44bb;
+}
+
+@media ( max-width: 500px ){
+    .tarjeta{
+        width: 75%;
+        height: 350px;
+    }
+    .puntos{
+        text-align: center;
+    }
+    .puntos h1{
+        font-size: 30px;
+        margin: 50px 0px 50px 0px;
+    }
+}
+
+.tarjeta h1{
+    font-size: 25px;
+    font-weight: bolder;
+    margin: -20% 0% 10% 0%;
+}
+
+ul li{
+    margin-left: -10px;
+}
+
+.btn_modif_uno{
+    margin-top: 33% !important;
+}
+
+.boton_modif{
+    margin-top: 34% !important;
+}
+
+.btn_modif{
+    margin-top: 23% !important;
+}
+
+.boton{
+    margin: 12% 0% 0% 0%;
+    text-align: center;
+    background-color: #c769e7;
+    border: none;
+    padding: 2px 10px;
+    border-radius: 20px;
+}
+
+.boton a{
+    text-decoration: none;
+    color: white;
+}
+
+.boton:hover{
+    color: white;
+    background-color: #5a44bb;
+}
+
+.boton a:hover{
+    color: white;
+}
+
+.auditoria{
+    text-align: center;
+    margin: 15% 0%;
+}
+
+.auditoria h1{
+    font-weight: bolder;
+    font-size: 55px;
+}
+
+.auditoria p{
+    margin: 3% 0% 5% 0%;
+    font-size: 20px;
+}
+
+.btn_celular{
+    margin: 0px 39%;
+}
+
+.btn_celular button{
+    padding: 25px 100px;
+}
+
+.button {
+    font-family: inherit;
+    background: #46bd50;
+    color: white;
+    padding: 0.35em 0;
+    font-size: 17px;
+    border: none;
+    border-radius: 0.7em;
+    letter-spacing: 0.08em;
+    position: relative;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 2.1em;
+    padding-left: 2.8em;
+    padding-right: 0.9em;
+}
+   
+.button .icon {
+    background: #fff;
+    height: 2em;
+    width: 2em;
+    border-radius: 2em;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 0.4em;
+    transition: all 0.5s;
+}
+   
+.icon i {
+    transition: all 0.5s;
+    color: #45c450;   
+    font-size: 20px;
+}
+   
+.button:hover .icon i {
+    transform: rotate(360deg);
+}
+   
+.button:hover .icon {
+    width: calc(100% - 0.85rem);
+    border-radius: 0.5em;
+}
+
+.btn_celular p{
+    font-weight: bolder;
+}
+
+footer{
+    background-color: black;
+}
+
+.final{
+    text-align: center;
+}
+
+.final h1{
+    color: white;
+    font-weight: bolder;
+    font-size: 150%;
+    padding-top: 40px;
+}
+
+.contactos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactos a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 25px;
+    border-radius: 10px;
+    margin: 10% 2%;
+}
+
+.abajo .row{
+    --bs-gutter-x: 1.rem;
+    margin-bottom: 3%;
+}
+
+.centrar{
+    text-align: center;
+}
+
+.logo_final{
+    text-align: center;
+}
+
+.logo_final img{
+    width: 30%;
+}
+
+.gradient{
+    color: rgb(232,63,211);
+    width: 100%;
+    height: 50px;
+    background: rgb(232,63,211);
+    background: linear-gradient(90deg, rgba(232,63,211,1) 0%, rgba(96,94,221,1) 50%, rgba(0,212,255,1) 100%);
+}
