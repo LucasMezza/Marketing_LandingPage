@@ -10,36 +10,43 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@100&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,700&family=Roboto:wght@100&display=swap" rel="stylesheet">
     <title>Maketing Digital</title>
 </head>
 
 <body> 
-    <div class="contenedor">
-        <div class="navbar_css" id="inicio">
+    <div class="contenedor" >
+        <div class="navbar_css">
             <div class="logo">
                 <img src="imagenes/Diseño_sin_título-removebg-preview.png" alt="logo">
                 <p>EMPEZAR <br/> MARKETING</p>
             </div>
-        </div>
-        <div class="navbar_css_dos">
+            
+            <label for="menu" class="navbar_label">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </label>
+            <input type="checkbox" id="menu" class="navbar_input">
+
             <div class="links">
-                <a href="#inicio">INICIO</a>
-                <a href="#contactos" class="pink">CONTACTO</a>
-                <a href="#planes">ELEGI TU PLAN</a>
+                <a href="#inicio" class="navbar_item">INICIO</a>
+                <a href="#contactos" class="pink navbar_item">CONTACTO</a>
+                <a href="#planes" class="navbar_item">ELEGI TU PLAN</a>
             </div>
         </div>
     </div>
     
-    <div class="video">
-        <video src="imagenes/video.mp4" autoplay loop>
-        </video>
-    </div>
-    <div class="btn_auditoria">
-        <button>
-            <a href="#auditoria">AUDITORIA GRATIS</a>
-        </button>
+    <div class="row modif" id="inicio">
+        <div class="col-md-7 col-xs-12 imagen">
+            <img src="imagenes/Empezar Marketing .png" alt="empezar">
+            <div class="btn_auditoria">
+                <button>
+                    <a href="#auditoria">AUDITORIA GRATIS</a>
+                </button>
+            </div>
+        </div>
+        <div class="col-md-5 col-xs-12 gif">
+            <img src="imagenes/video.gif" alt="gif">
+        </div>
     </div>
 
     <div class="container">
@@ -78,14 +85,14 @@
                 <h1>Podes vender más, te ayudamos a lograrlo.</h1>
             </div>
             <div class="col-md-7 col-xs-12 puntos">
-                <img src="imagenes/puntos.png" alt="puntos">
+                <img src="imagenes/puntos.png" alt="puntos" >
             </div>
         </div>
-        
-    </div>
-    
+    </div >
+
+    <div id="planes"></div>
     <div class="container">
-        <div class="planes" id="planes">
+        <div class="planes">
             <img src="imagenes/plan.png" alt="planes">
             <p>Queremos ayudarte a vender más, elegí el plan <br/>que mejor se adapte a tu negocio</p>
         </div>
@@ -93,14 +100,16 @@
             <div class="col-md-3 col-xs-12">
                 <div class="tarjeta">
                     <h1>BÁSICO</h1>
-                    <ul>
-                        <li>Página de Facebook</li>
-                        <li>Página de Instagram</li>
-                        <li>Whatsapp Business </li>
-                        <li>Campañas publicitarias</li> 
-                        <li>Auditoria, Estrategia e Informes</li>
-                    </ul>
-                    <div class="boton btn_modif_uno">
+                    <div class="texto">
+                        <ul>
+                            <li>Página de Facebook</li>
+                            <li>Página de Instagram</li>
+                            <li>Whatsapp Business </li>
+                            <li>Campañas publicitarias</li> 
+                            <li>Auditoria, Estrategia e Informes</li>
+                        </ul>
+                    </div>
+                    <div class="boton">
                         <button class="btn">
                             <a href="javascript:void(0)">SELECCIONAR PLAN</a>
                         </button>
@@ -109,14 +118,16 @@
             </div>
             <div class="col-md-3 col-xs-12">
                 <div class="tarjeta">
-                    <h1>INTERMEDIO</h1>
-                    <ul>
-                        <li>Páginas en Redes Sociales</li>
-                        <li>Whatsapp Business</li>
-                        <li>Campañas Publicitarias</li>
-                        <li>Auditoria, Estrategia e Informes</li>
-                        <li>Landing Page con plantilla</li> 
-                    </ul>
+                    <h1>MEDIO</h1>
+                    <div class="texto">
+                        <ul>
+                            <li>Páginas en Redes Sociales</li>
+                            <li>Whatsapp Business</li>
+                            <li>Campañas Publicitarias</li>
+                            <li>Auditoria, Estrategia e Informes</li>
+                            <li>Landing Page con plantilla</li> 
+                        </ul>
+                    </div>
                     <div class="boton">
                         <button class="btn">
                             <a href="javascript:void(0)">SELECCIONAR PLAN</a>
@@ -127,14 +138,16 @@
             <div class="col-md-3 col-xs-12">
                 <div class="tarjeta">
                     <h1>COMPLETO</h1>
-                    <ul>
-                        <li>Incluye PLAN BÁSICO</li>
-                        <li>Gestión de Redes Sociales</li>
-                        <li>Posicionamiento web</li>
-                        <li>Creación de contenidos</li> 
-                        <li>Landing Page 100% personalizada</li>
-                    </ul>
-                    <div class="boton btn_modif">
+                    <div class="texto">
+                        <ul>
+                            <li>Incluye PLAN BÁSICO</li>
+                            <li>Gestión de Redes Sociales</li>
+                            <li>Posicionamiento web</li>
+                            <li>Creación de contenidos</li> 
+                            <li>Landing Page 100% personalizada</li>
+                        </ul>
+                    </div>
+                    <div class="boton">
                         <button class="btn">
                             <a href="javascript:void(0)">SELECCIONAR PLAN</a>
                         </button>
@@ -144,10 +157,12 @@
             <div class="col-md-3 col-xs-12">
                 <div class="tarjeta">
                 <h1>A MEDIDA</h1>
+                <div class="texto">
                     <ul>
                         <li>Si necesitas ayuda para saber que es lo mejor para tu negocio, manda un mensaje  y te ayudamos a hacer un plan a tu medida.</li>
                     </ul>
-                    <div class="boton boton_modif">
+                </div>
+                    <div class="boton">
                         <button class="btn">
                             <a href="javascript:void(0)">SELECCIONAR PLAN</a>
                         </button>
@@ -171,21 +186,22 @@
         </div>
     </div>
 
-    
-    <footer class="abajo">
+    <div id="contactos"></div>
+    <footer class="abajo" >
         <div class="row">
             <div class="col-md-6 col-xs-12 abajo">
                 <div class="final">
-                    <h1>!CONTACTANOS¡</h1>
+                    <h1>EMEPEZAR <br/>MARKETING</h1>
+                    <p>Te ofrecemos lo mejor en marketing digital para tu negocio, <b>contactate</b> con nosotros y obtene toda la informacion que necesites</p>
                 </div>
-                <div class="contactos" id="contactos">
+                <div class="contactos">
                     <a href="javascript:void(0)"><i class="fa fa-whatsapp" aria-hidden="true" target="_blank"></i></a>
                     <a href="mailto:empezarmarketing@gmail.com?body=¡Hola!,%20vi%20su%20página%20y%20quería%20saber%20más%20sobre%20ustedes."><i class="fa fa-envelope-o" aria-hidden="true" target="_blank"></i></a>
                     <a href="https://www.facebook.com/Empezar-Marketing-100944242711388/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                     <a href="https://www.instagram.com/empezarmarketing/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
                 </div> 
                 <div class="logo_final">
-                    <img src="imagenes/Diseño_sin_título-removebg-preview.png" alt="">
+                    <img src="imagenes/Diseño_sin_título-removebg-preview.png" alt="logo">
                 </div>
             </div>
             <div class="col-md-6 col-xs-12">
@@ -194,6 +210,14 @@
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d69230.0545204173!2d-60.03263992541896!3d-34.894994540303095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bea530dce5dd93%3A0x5ae63a20a06f4b77!2sChivilcoy%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1657583181519!5m2!1ses-419!2sar" width="80%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
+            </div>
+        </div>
+        <div class="github">
+            <div>
+                <p>© By LucasMezza</p>
+            </div>
+            <div>
+                <a href="https://github.com/LucasMezza"><i class="fa fa-github" aria-hidden="true"></i></a>
             </div>
         </div>
         <div class="gradient">.</div>
