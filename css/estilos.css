@@ -315,9 +315,9 @@
 
 @media ( max-width: 767px ){
     .tarjeta{
-        width: 55% !important;
+        width: 70% !important;
         height: 350px;
-        margin: 40px 0px 0px 25%;
+        margin: 40px 0px 0px 15%;
     }
     .puntos{
         text-align: center;
@@ -328,6 +328,9 @@
     }
     .texto{
         height: 185px !important;
+    }
+    .planes{
+        margin-top: 80px;
     }
 }
 
@@ -346,7 +349,7 @@
 }
 
 ul li{
-    margin-left: -10px;
+    margin-left: -5px;
     font-weight: 500;
 }
 
@@ -488,6 +491,7 @@ footer{
 
 .final p{
     color: white;
+    margin: 10px 20px 16px 20px;
 }
 
 .contactos{
