@@ -137,6 +137,12 @@
     }
 }
 
+@media ( max-width: 499px){
+    .navbar_input:checked + .links{
+        clip-path: polygon(0 0, 100% 0, 100% 21%, 0 21%);
+    }
+}
+
 .modif{
     --bs-gutter-x: -2.5rem !important;
 }
@@ -331,6 +337,16 @@
     }
     .planes{
         margin-top: 80px;
+    }
+}
+
+@media ( max-width: 372px ){
+    .tarjeta{
+        width: 85% !important;
+        height: 400px;
+    }
+    .texto{
+        height: 230px !important;
     }
 }
 
