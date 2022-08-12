@@ -323,7 +323,7 @@
     .tarjeta{
         width: 70% !important;
         height: 350px;
-        margin: 40px 0px 0px 15%;
+        margin: 0px auto 40px auto;
     }
     .puntos{
         text-align: center;
@@ -421,9 +421,6 @@ ul li{
     }
     .auditoria p{
         font-size: 15px !important;
-    }
-    #auditoria{
-        height: 70px;
     }
     .abajo{
         margin-top: 60px;
